@@ -9,6 +9,10 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Occasionally, test fill be successful proving that volatile
+ * keyword does not grant atomicity to increment operation.
+ */
 public class UnsafeSequenceTest {
 
     private List<Thread> threads;
